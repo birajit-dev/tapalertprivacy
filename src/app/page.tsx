@@ -10,7 +10,7 @@ export default function Home() {
             for iPlantSched
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-            Effective Date: December 2024
+            Effective Date: July 2025
           </p>
         </div>
 
