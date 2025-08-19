@@ -1,103 +1,90 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="font-sans min-h-screen p-8 pb-20 sm:p-20">
+      <main className="max-w-4xl mx-auto">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+            Privacy Policy
+          </h1>
+          <p className="text-xl text-gray-600 dark:text-gray-300">
+            for iPlantSched
+          </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
+            Effective Date: December 2024
+          </p>
+        </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="prose prose-lg max-w-none dark:prose-invert">
+          <p className="text-gray-700 dark:text-gray-300 mb-6">
+            iPlantSched (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;the App&rdquo;) respects your privacy. This Privacy Policy explains how we handle information in connection with your use of iPlantSched.
+          </p>
+
+          <div className="space-y-8">
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                1. No Data Collection
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                iPlantSched is a fully offline app. We do not collect, store, or transmit any personal information, usage data, or device information. All features of the app work entirely on your device.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                2. No Third-Party Sharing
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                Since no data is collected, there is nothing to share with third parties. Your usage of iPlantSched remains completely private and confined to your device.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                3. Offline Functionality
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                All reminders, plant schedules, and growth tracking are stored locally on your device. Internet access is not required to use the app&rsquo;s features.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                4. Security
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                As no user data is transmitted or stored externally, your information is inherently secure. We recommend following standard device security practices to protect your data locally.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                5. Changes to this Policy
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300">
+                Since iPlantSched does not collect data, this Privacy Policy is unlikely to change. However, if there are updates, they will be reflected in this document with an updated effective date.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+                6. Contact Us
+              </h2>
+              <p className="text-gray-700 dark:text-gray-300 mb-2">
+                For any questions regarding this Privacy Policy, you can contact us at:
+              </p>
+              <p className="text-gray-700 dark:text-gray-300">
+                Email: gourinoatia2@gmail.com
+              </p>
+            </section>
+          </div>
+
+          <div className="mt-12 p-6 bg-gray-50 dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700">
+            <p className="text-gray-700 dark:text-gray-300 text-center font-medium">
+              By using iPlantSched, you agree to this Privacy Policy.
+            </p>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
