@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SurviGo Privacy Policy",
-  description: "Privacy Policy for SurviGo",
+  title: "TicklyDo Privacy Policy",
+  description: "Privacy Policy for TicklyDo",
 };
 
 export default function RootLayout({
