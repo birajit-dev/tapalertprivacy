@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Privacy Policy for iPlantSched",
-  description: "Privacy Policy for iPlantSched",
+  title: "SurviGo Privacy Policy",
+  description: "Privacy Policy for SurviGo",
 };
 
 export default function RootLayout({
