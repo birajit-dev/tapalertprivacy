@@ -10,7 +10,7 @@ export default function Home() {
             for TapAlert
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
-            Effective Date: [Insert Date]
+            Effective Date: 01.08.2025
           </p>
         </div>
 
