@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TicklyDo Privacy Policy",
-  description: "Privacy Policy for TicklyDo",
+  title: "TapAlert Privacy Policy",
+  description: "Privacy Policy for TapAlert",
 };
 
 export default function RootLayout({
